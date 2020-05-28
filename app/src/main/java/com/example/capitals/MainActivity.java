@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button newGame, review, howPlay;
+    // test comment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
