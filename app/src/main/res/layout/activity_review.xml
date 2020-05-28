@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Review"
+    android:orientation="vertical"
+    android:background="@drawable/flag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_gravity="left"
+            android:src="@drawable/undo"
+            android:id="@+id/undo"/>
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="79dp"
+            android:gravity="center_horizontal"
+            android:text="@string/Capital"
+            android:background="#B3096288"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="@string/Input"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#919191"
+        android:id="@+id/review"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/send"
+        android:id="@+id/send"/>
+
+</LinearLayout>

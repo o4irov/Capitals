@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Capitals</string>
+    <string name="Capital">Столицы</string>
+    <string name="Name">Никнейм</string>
+    <string name="NewGame">Новая Игра</string>
+    <string name="Review">Оставить отзыв</string>
+    <string name="HowPlay">Как Играть</string>
+    <string name="AboutCountries">О Странах</string>
+    <string name="AboutGame">Об Игре</string>
+    <string name="Continue">Продолжить</string>
+    <string name="Round1">Раунд 1</string>
+    <string name="Round2">Раунд 2</string>
+    <string name="Round3">Раунд 3</string>
+    <string name="Round4">Раунд 4</string>
+    <string name="Round5">Раунд 5</string>
+    <string name="Round6">Раунд 6</string>
+    <string name="Total">Итого</string>
+    <string name="Input">Новый отзыв/предложение/сообщение об ошибке</string>
+    <string name="Send">Отправить</string>
+    <string name="HowToPlay">Чтобы начать игру, нужно
+        перейти в раздел "Новая игра". Вам
+        будут представлены 10 вопросов, в
+        которых нужно по данной
+        стране выбрать её столицу.
+        Вы можете увидеть номер
+        вопроса и количество верных
+        ответов ниже.
+    </string>
+    <string name="Quest">Вопрос №</string>
+    <string name="Ten">/10</string>
+    <string name="True">Верных: </string>
+    <string name="S">/</string>
+
+</resources>
